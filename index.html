@@ -5,66 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Recipe Page</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
   <article class="recipe-card">
     <header>
-      <img src="images/dish.jpg" alt="dish">
-        <h1>Classic Lasagna</h1>
-        <p>Recipe by Gordon Ramsay</p>
+      <img src="assets\images\image-omelette.jpeg" alt="dish" class="recipe-image">
+        <h1>Simple Omelette Recipe</h1>
+        <p class="dish-description">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables or meats.</p>
     </header>
     <main>
-      <section>
-        <h3>Preparation Time</h3>
-        <dl>
-          <dt>Prep:</dt>
-          <dd>30 min</dd>
-          <dt>Cook:</dt>
-          <dd>2 hours</dd>
-          <dt>Yields:</dt>
-          <dd>6 servings</dd>
-        </dl>
-      </section>
-      <section>
-        <h3>Ingredients</h3>
+      <section class="preparation-time">
+        <h3>Preparation time</h3>
         <ul>
-          <li>1 lb ground beef</li>
-          <li>1/2 lb sweet Italian sausage</li>
-          <li>1 onion, chopped</li>
-          <li>2 cloves garlic, minced</li>
-          <li>1 (28 oz) can crushed tomatoes</li>
+          <li><span class="bold">Total</span>: Approximately 10 minutes</li>
+          <li><span class="bold">Preparation</span>: 5 minutes</li>
+          <li><span class="bold">Cooking</span>: 5 minutes</li>
+        </div>
+         </ul>
+      </section>
+      <section class="ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>2-3 large eggs</li>
+          <li>Salt, to taste</li>
+          <li>Pepper, to taste</li>
+          <li>1 tablespoon of butter or oil</li>
+          <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
         </ul>
       </section>
-      <section>
+      <hr>
+      <section class="instructions">
         <h2>Instructions</h2>
         <ol>
-          <li>In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned.</li>
-          <li>Stir in crushed tomatoes, tomato paste, tomato sauce, and water.</li>
-          <li>Season with sugar, basil, fennel seeds, Italian seasoning, 1 tablespoon salt, pepper, and 2 tablespoons parsley.</li>
-          <li>Simmer, covered, for about 1 1/2 hours, stirring occasionally.</li>
-          <li>Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to 10 minutes.</li>
-          <li>Drain noodles, and rinse with cold water. In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt.</li>
+          <li><span class="bold">Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+          <li><span class="bold">Heat the pan</span>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+          <li><span class="bold">Cook the omelette</span>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure th eggs evenly coat the surface.</li>
+          <li><span class="bold">Add fillings (optional)</span>: When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen filling over one half of the omelette.</li>
+          <li><span class="bold">Fold and serve</span>: As the omelette continues to cook, carefully lift one ege and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+          <li><span class="bold">Enjoy</span>: Serve hot, with additional salt and pepper, if needed.</li>
         </ol>
       </section>
+      <hr>
       <section>
         <h2>Nutrition</h2>
-        <p>The table below shows bla bla</p>
+        <p class="table-preview">The table below shows nutritional values per serving without the additional fillings.</p>
         <table>
           <tr>
             <th>Calories</th>
-            <td>500</td>
+            <td>277kcal</td>
           </tr>
           <tr>
-            <th>Calories</th>
-            <td>500</td>
+            <th>Carbs</th>
+            <td>0g</td>
           </tr>
           <tr>
-            <th>Calories</th>
-            <td>500</td>
+            <th>Protein</th>
+            <td>20g</td>
           </tr>
           <tr>
-            <th>Calories</th>
-            <td>500</td>
+            <th>Fat</th>
+            <td>22g</td>
           </tr>
         </table>
       </section>
